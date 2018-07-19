@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+        <node pkg="camera_watchdog" type="camera_watchdog" name="camera_watchdog_node" output="screen" respawn="false">
+           <param name="config_json" type="string" value="$(find camera_watchdog)/config/config.json"/>
+        </node>
+        
+</launch>

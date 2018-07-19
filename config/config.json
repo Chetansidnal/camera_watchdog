@@ -1,0 +1,10 @@
+{"nodes" :[ 
+    {
+        "name" : "scene_segmentation_node",
+        "connect" : "tcp://127.0.0.1:5558"
+    }],
+"pub" :[
+	{"name" : "camera_watchdog_node",
+	"connect" : "tcp://*:5563"
+	}
+]}
